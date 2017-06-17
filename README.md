@@ -3,17 +3,17 @@
 # **Vehicle Detection**
 
 [//]: # (Image References)
-[image1]: ./examples/car_not_car.png
-[image2]: ./WRITEUP/images/hog_img.png
-[image3]: ./WRITEUP/images/hog-sub.jpg
-[image4]: ./WRITEUP/images/sliding_window.png
-[image5]: ./WRITEUP/images/bboxes_and_heat.png
-[image51]: ./WRITEUP/images/test_image_4+heat.png
-[image52]: ./WRITEUP/images/test_image_5+heat.png
-[image53]: ./WRITEUP/images/test_image_6+heat.png
-[image6]: ./WRITEUP/images/labels.png
-[image7]: ./WRITEUP/images/image_with_debug.png
-[video1]: ./WRITEUP/video/P5_output.mp4
+[image1]: ./images/car_not_car.png
+[image2]: ./images/hog_img.png
+[image3]: ./images/hog-sub.jpg
+[image4]: ./images/sliding_window.png
+[image5]: ./images/bboxes_and_heat.png
+[image51]: ./images/test_image_4+heat.png
+[image52]: ./images/test_image_5+heat.png
+[image53]: ./images/test_image_6+heat.png
+[image6]: ./images/labels.png
+[image7]: ./images/image_with_debug.png
+[video1]: ./video/P5_output.mp4
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -114,14 +114,14 @@ An example of the search area is shown below:
 Ultimately I searched on three scales using YUV 3-channel HOG features plus histograms of color in the feature vector, which provided a nice result.  Here are some example images:
 
 ![alt text][image4]
-![alt text][image41]
+
 
 ---
 
 ### Video Implementation
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
-Here's a [link to my video result](./WRITEUP/video/P5_output.mp4)
+Here's a [link to my video result](./video/P5_output.mp4)
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.

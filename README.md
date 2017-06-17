@@ -14,6 +14,7 @@
 [image6]: ./images/labels.png
 [image7]: ./images/image_with_debug.png
 [video1]: ./video/P5_output.mp4
+[video2]: ./video/P5_gif.gif
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -122,6 +123,8 @@ Ultimately I searched on three scales using YUV 3-channel HOG features plus hist
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
 Here's a [link to my video result](./video/P5_output.mp4)
+
+![Output Gif][video2]
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
